@@ -28,3 +28,5 @@ https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset</br>
 
 ## Link Website: :bricks:
 https://psomlops.streamlit.app/
+
+![Screenshot 2022-04-27 at 6 56 27 PM](Pipeline.png)
