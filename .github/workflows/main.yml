@@ -27,6 +27,6 @@ jobs:
 
       - name: Login to Docker Hub
         run: echo ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} | docker login -u talithaarr --password-stdin
-
+        
       - name: Run Docker container
         run: docker run -p 5003:5000 AlfinAmir/mlops-pso:v1 streamlit run --server.port 5003 app.py
